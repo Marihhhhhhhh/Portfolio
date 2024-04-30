@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Gochi+Hand&family=Great+Vibes&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #ced5f7 16.62%, #276964 85.61%);
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    font-size: x-large;
+}
+
+.cabeçalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabeçalho-menu-item{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.corpo-da-pagina{
+    margin-bottom: 48px;
+    border-top: 0.4px solid rgb(255, 255, 255);
+}
+
+.sobre-mim{
+    margin-top: 32px;   
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.foto{
+    border-radius: 990px;
+    max-width: 200px;
+    max-height: 200px;
+    box-shadow: 8px 8px 3px;
+}
+
+.sobre-mim-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sobre-mim-escrito-titulo{
+    font-family: "Gochi Hand", sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 55px;
+}
+
+.sobre-mim-escrito-paragrafo{
+    font-family: "Amatic SC", sans-serif;
+    font-size: x-large;
+    font-weight: 400;
+    color: #ffffff;
+     
+}
+.negrito{
+    font-weight: 9000;
+}
+
+.projetos-tecnologias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px;
+}
+
+.tecnologias{
+    box-shadow: 20px 20px 10px;
+    background-color: #779896;
+    border-radius: 50px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tecnologias-titulo{
+    font-family: "Amatic SC", sans-serif;
+    font-size: x-large;
+    color: #ffffff  ;
+}
+
+.Projetos{
+    background-color: #779896;
+    box-shadow: 20px 20px 10px;
+    border-radius: 50px;
+    width: 310px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.Projetos-titulo{
+    font-family: "Amatic SC", sans-serif;
+    color: #ffffff;
+    font-size: x-large;
+}
+
+.sites{
+    font-family: "Gochi Hand", sans-serif;
+    color: #4e0072;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
